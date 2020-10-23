@@ -1,0 +1,97 @@
+body {
+    font-family: Segoe UI Light, Roboto, Arial, Helvetica, sans-serif;
+    color: #495057;
+    margin: 0;
+}
+
+.layout-chamada {
+    margin-top: 1rem;
+    padding: 5rem 0;
+    background-color: #7ab55c;
+}
+
+.layout-resultado {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.layout-resultado table {
+    width: 20rem;
+    margin: auto;
+}
+
+.layout-resultado .cabecalho {
+    width: 10rem;
+}
+
+.chamada {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.chamada-titulo {
+    margin: 0;
+    color: white;
+    font-size: 3.375rem;
+    line-height: 0.9rem;
+    text-shadow: 1px 1px #313131;
+    font-weight: bold;
+}
+
+.chamada-subtitulo {
+    margin: 60px 0;
+    color: white;
+    font-size: 1em;
+}
+
+.button {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.input {
+    width: 15rem;
+    padding: .375rem .75rem;
+    margin-right: .5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid #006321;
+}
+
+th {
+    background-color: #7ab55c;
+    color: white;
+}
+
+th,
+td {
+    text-align: left;
+    vertical-align: top;
+    padding: .2rem;
+}

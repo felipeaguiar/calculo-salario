@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de Salário</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="layout-chamada">
+        <form onsubmit="return false">
+            <div class="chamada">
+                <h1 class="chamada-titulo">Calcule Seu Salário Líquido</h1>
+                <p class="chamada-subtitulo">Digite seu salário bruto na caixa de entrada e descubra quanto você receberá.</p>
+                <div>                        
+                    <input type="text" class="input" placeholder="0,00" autocomplete="off" size="12" onkeyup="mascaraMoeda(this, event)" id="salario-bruto">                    
+                    <button type="button" class="button" onclick="calcularSalario()">Calcular Salário</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="layout-resultado">            
+        <table>
+            <tr>
+                <th class="cabecalho">Salário Líquido</th>
+                <td id="salario-liquido">R$ 0,00</td>
+            </tr>
+            <tr>
+                <th>INSS</th>
+                <td id="inss">R$ 0,00</td>
+            </tr>
+            <tr>
+                <th>IRPF</th>
+                <td id="irpf">R$ 0,00</td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="calculo.js"></script>
+</body>
+</html>
